@@ -47,7 +47,7 @@ function App() {
       headers: {
         accept: 'application/json',
         'content-type': 'application/json',
-        authorization: 'Bearer LaX0WJFUj0gnyoVapuYz'
+        authorization: `Bearer ${REACT_APP_ERASER_API_KEY}`
       },
       body: JSON.stringify({
         text: ERASER_CODE,
